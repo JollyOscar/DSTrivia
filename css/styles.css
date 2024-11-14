@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "DarkSouls";
+    src: url("../fonts/OptimusPrinceps.ttf");
+}
+
+/* Body Styles */
+body {
+    background-color: #121212;
+    color: #f5f5f5;
+    font-family: 'DarkSouls', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    text-align:center;
+}
+
+/* Line Separator Styles */
+.line {
+    height: 2px;
+    background-color: #444;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+}
+
+/* Header Styles */
+header {
+    background-color: #1f1f1f;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    color: #ffd700;
+    font-size: 2.5em;
+}
+
+header h3 {
+    color: #ccc;
+    padding-top: 20px;
+}
+
+/* Text and Link Styles */
+p {
+    color: #CF9B85;
+}
+
+a {
+    color: #ffd700;
+}
+
+h3.question {
+    color: #CF9B85;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333;
+    border-radius: 3px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    background-color: #CF9B85;
+}
+
+/* Question Options List Styles */
+ul.question-options {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    list-style-type: none;
+}
+
+ul.question-options li {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #333;
+    border-radius: 3px;
+    color: #fff;
+}
+
+ul.question-options li.question-user-choice {
+    background-color: #CF9B85;
+}
+
+/* Result Styles */
+div.result {
+    padding: 20px 0;
+    text-align: center;
+    margin: 0;
+    background-color: #121212;
+}
+
+.result a {
+    text-decoration: none;
+
+}
+
+.result a:hover {
+    text-decoration: underline;
+
+}
+
+i {
+    padding-right: 10px;
+    vertical-align: middle;
+}
+
+/* Figure Styles */
+figure {
+    padding-top: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Caption Link Styles */
+figcaption a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    text-decoration: underline;
+}
+
+/* Miscellaneous Styles */
+.start {
+    padding-top: 20px;
+    text-align: center;
+    margin: 20px 0;
+    color: #ffd700;
+}
+
+.home-gif {
+    background-color: #000813;
+}
+
+.thanks-gif {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #444;
+}
+
+.abyss {
+    background-color: black;
+}
+
+.result-abyss {
+    padding: 20px 0;
+    text-align: center;
+    margin: 0;
+    background-color: black;
+}
+
+.result-abyss a {
+    text-decoration: none;
+
+}
+
+.result-abyss a:hover {
+    text-decoration: underline;
+}
+
+.fa-regular {
+    font-size: 3rem;
+}
+
+div {
+    background-color: #1e1e1e;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 5px;
+    text-align: left;
+}
